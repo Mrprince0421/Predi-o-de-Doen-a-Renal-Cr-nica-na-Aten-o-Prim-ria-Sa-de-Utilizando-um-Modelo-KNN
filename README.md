@@ -1,4 +1,4 @@
-# Predição de Doença Renal Crônica (KNN do Zero)
+# Predição de Doença Renal Crônica
 
 Este projeto implementa um modelo de aprendizado de máquina para classificação e triagem de **Doença Renal Crônica (DRC)** utilizando o *Chronic Kidney Disease Dataset* (UCI ID: 336).
 
@@ -6,7 +6,7 @@ O algoritmo de classificação (**KNN - K-Nearest Neighbors**), o pré-processam
 
 ---
 
-## 🚀 Como Rodar o Projeto
+##  Como Rodar o Projeto
 
 ### 1. Requisitos Prévia
 Certifique-se de ter o Python instalado na versão 3.10 ou superior.
