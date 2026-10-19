@@ -44,8 +44,8 @@ desvio[desvio == 0] = 1  # Evita divisão por zero
 X_norm = (X_array - media) / desvio
 
 
-# 4. CLASSIFICADOR KNN CRIADO DO ZERO
-class ClassificadorKNNDoZero:
+
+class ClassificadorKNND:
     def __init__(self, k=3):
         self.k = k
 
@@ -88,7 +88,7 @@ for i in range(k_folds):
     y_treino, y_teste = y[idx_treino], y[idx_teste]
 
 
-    knn = ClassificadorKNNDoZero(k=5)
+    knn = ClassificadorKNND(k=5)
     knn.fit(X_treino, y_treino)
     y_pred = knn.predict(X_teste)
 
