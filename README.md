@@ -2,7 +2,7 @@
 
 Este projeto implementa um modelo de aprendizado de máquina para classificação e triagem de **Doença Renal Crônica (DRC)** utilizando o *Chronic Kidney Disease Dataset* (UCI ID: 336).
 
-O algoritmo de classificação (**KNN - K-Nearest Neighbors**), o pré-processamento dos dados e a validação cruzada ($5\text{-Fold}$) foram **desenvolvidos do zero em Python**, sem o uso de bibliotecas de modelagem prontas (como `scikit-learn`).
+O algoritmo de classificação (**KNN - K-Nearest Neighbors**), o pré-processamento dos dados e a validação cruzada ($5\text{-Fold}$) foram **desenvolvidos em Python**.
 
 ---
 
